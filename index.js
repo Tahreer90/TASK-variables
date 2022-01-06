@@ -10,7 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
+const fullName = "Tahreer Alenezi"
+const yearOfBirth = 1990
+let hobby = "Baking"
+let funFact = "I love to code"
+const image = "https://media-exp1.licdn.com/dms/image/C4D03AQF3dSovIwPlTA/profile-displayphoto-shrink_200_200/0/1625827024375?e=1646870400&v=beta&t=f0_nv4bjkIHz71cZzY_S86YoQ8OyEFIQeUmFn2lUgPk"
 
 
 
@@ -33,6 +37,9 @@
 // const yearOfBirthString =
 // const hobbyString =
 
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${2022 - yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`
 
 
 
@@ -44,15 +51,19 @@
 let stars = 0;
 
 function incrementBy1() {
+  stars ++
   // Increment stars by 1 👇🏻
-}
+} 
 function decrementBy1() {
+  stars --
   // decrement stars by 1 👇🏻
 }
 
 function incrementBy2() {
+  stars = +2
   // Increment stars by 2 👇🏻
 }
 function decrementBy2() {
+  stars = -2
   // decrement stars by 2 👇🏻
 }
